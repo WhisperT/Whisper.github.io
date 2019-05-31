@@ -9,7 +9,6 @@ username: Went Lee
 user_description: A farmer in the field of AI
 user_title: Beginner AI Researcher
 email: went.lee@foxmail.com
-#twitter_username: lorem_ipsum
 github_username:  WhisperT
 
 
@@ -35,9 +34,10 @@ links:
     url: /series
   - title: Tags
     url: /tags
-#  - title: About Me
-#    url: /about
-
+  - title: About
+    url: /about
+plugins:
+  - jekyll-feed
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
